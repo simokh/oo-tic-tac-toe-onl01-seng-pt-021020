@@ -120,7 +120,7 @@ class TicTacToe
   if index == false
     return nil
   else
-  end 
+  end
     if @board[index[0]] == "X"
       return "X"
     else
@@ -128,14 +128,14 @@ class TicTacToe
     end
   end
 
-  # def play
-  #   until over? == true
-  #     turn
-  #   end
-  #
-  #   if won?
-  #     puts "Congratulations #{winner}!"
-  #   elsif draw?
-  #     puts "Cat's Game!"
-  #   end
+  def play
+    until over? == true
+      turn
+    end
+
+    if won?
+      puts "Congratulations #{winner}!"
+    elsif draw?
+      puts "Cat's Game!"
+    end
 end
