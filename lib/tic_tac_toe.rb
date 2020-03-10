@@ -120,6 +120,7 @@ class TicTacToe
   if index == false
     return nil
   else
+  end 
     if @board[index[0]] == "X"
       return "X"
     else
